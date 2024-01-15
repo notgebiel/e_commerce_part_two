@@ -1,7 +1,11 @@
+import "../stylesheets/navbar.css"
+import Navbar from "../components/navbar"
+
 export default function Root() {
     return (
-        <>
-        <p>root file</p>
-        </>
+        <div>
+        <Navbar active="home" />
+        <h1>home</h1>
+        </div>
     )
 }
