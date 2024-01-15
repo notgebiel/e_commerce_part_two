@@ -8,6 +8,7 @@ import ErrorPage from './routes/error-page';
 import AboutPage from './routes/about';
 import Products from './routes/products';
 import Login from './routes/login';
+import Register from './routes/register';
 
 
 
@@ -25,10 +26,14 @@ const router = createBrowserRouter([{
   path:"/products",
   element: <Products />,
 },
-{
+{ 
   path: "/login",
   element: <Login />,
 },
+{
+  path: "/register",
+  element: <Register />
+}
 ])
 
 

@@ -5,6 +5,7 @@ export default function Login() {
         <div>
             <Navbar active="login" />
             <h1>login</h1>
+            <a id='register' href='/register'>register</a>
         </div>
     )
 }
