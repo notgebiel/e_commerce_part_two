@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
@@ -10,6 +10,7 @@ import Products from './routes/products';
 import Login from './routes/login';
 import Register from './routes/register';
 
+//connecting express
 
 
 //react router
